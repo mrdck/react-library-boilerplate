@@ -51,6 +51,8 @@ lib/
 dist/
 build/
 
+.idea/
+
 # npm files
 .npm
 
