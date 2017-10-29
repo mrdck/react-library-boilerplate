@@ -16,9 +16,9 @@ module.exports = {
     module: {
         loaders: [
             {
-                test: /\.(tsx|ts|js)$/,
+                test: /\.tsx?$/,
                 exclude: /node_modules/,
-                use: ['babel-loader', 'ts-loader'],
+                use: ['awesome-typescript-loader'],
             },
             {
                 test: /\.scss$/,
